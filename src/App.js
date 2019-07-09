@@ -14,6 +14,7 @@ import Hand1 from './components/Hand1'
 import Hand2 from './components/hand2'
 import Leg1 from './components/leg1'
 import Leg2 from './components/leg2'
+import By from './components/by'
 
 
 
@@ -21,6 +22,7 @@ import Leg2 from './components/leg2'
 function App() {
   return (
     <div className="App">
+      <By/>
      <Head />
      <Eye1 />
      <Eye2 />
